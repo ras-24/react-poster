@@ -1,5 +1,12 @@
+import Post from "./components/Post";
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <main>
+      <Post author="Ras" body="React.js is awesome!" />
+      <Post author="Ros" body="Check out the Course!" />
+    </main>
+  );
 }
 
 export default App;
